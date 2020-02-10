@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <%- include('../layout/header'); -%>
+  <body>
+    <%- include('../layout/header'); -%>
+    <form action="http://localhost:3000/login" method="POST">
+    <div class="kotak ">
+      <h1> Log in  </h1>
+      <hr>
+      <div class="form-input">
+        <input type="text" placeholder="Username" name="username" class="user">
+        <input type="text" placeholder="Password" name="password" class="user">
+      </div>
+      <div class="form-button">
+        <button type="submit" class="tombol">Submit</button>
+      </div>
+
+    </div>
+    </form>
+  </body>
+</html>
